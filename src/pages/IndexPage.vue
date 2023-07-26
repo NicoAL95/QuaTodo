@@ -18,7 +18,12 @@ import { defineComponent, ref, onMounted, computed, watch } from "vue";
 import ListForm from "src/components/ListForm.vue";
 
 // Firebase
-import { createData, readData, deleteData, updateData } from "../boot/firebase";
+import {
+  createData,
+  readData,
+  deleteData,
+  updateData,
+} from "/src/boot/firebase";
 
 // Array
 const todos = ref([]);
@@ -101,4 +106,3 @@ export default defineComponent({
   },
 });
 </script>
-../../firebase
